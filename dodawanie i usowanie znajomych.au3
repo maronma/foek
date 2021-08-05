@@ -306,7 +306,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -429,7 +429,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -552,7 +552,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -675,7 +675,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -798,7 +798,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -922,7 +922,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -1044,7 +1044,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -1168,7 +1168,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -1294,7 +1294,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -1417,7 +1417,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -1540,7 +1540,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -1664,7 +1664,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -1786,7 +1786,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -1910,7 +1910,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -2036,7 +2036,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -2159,7 +2159,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -2282,7 +2282,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -2406,7 +2406,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -2528,7 +2528,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -2652,7 +2652,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -2778,7 +2778,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -2901,7 +2901,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -3024,7 +3024,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -3148,7 +3148,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -3270,7 +3270,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -3394,7 +3394,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -3520,7 +3520,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -3643,7 +3643,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -3766,7 +3766,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -3890,7 +3890,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -4012,7 +4012,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -4136,7 +4136,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -4262,7 +4262,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -4385,7 +4385,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -4508,7 +4508,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -4632,7 +4632,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -4754,7 +4754,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -4878,7 +4878,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -5004,7 +5004,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -5127,7 +5127,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -5250,7 +5250,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -5374,7 +5374,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -5496,7 +5496,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -5620,7 +5620,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -5743,7 +5743,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -5865,7 +5865,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -5988,7 +5988,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -6111,7 +6111,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -6234,7 +6234,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -6358,7 +6358,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -6480,7 +6480,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -6604,7 +6604,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -6730,7 +6730,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -6853,7 +6853,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -6976,7 +6976,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -7101,7 +7101,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -7223,7 +7223,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -7347,7 +7347,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -7473,7 +7473,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -7596,7 +7596,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -7719,7 +7719,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -7843,7 +7843,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -7965,7 +7965,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -8089,7 +8089,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -8214,7 +8214,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -8339,7 +8339,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -8461,7 +8461,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -8585,7 +8585,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -8711,7 +8711,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -8834,7 +8834,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -8957,7 +8957,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -9081,7 +9081,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -9203,7 +9203,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -9327,7 +9327,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 
@@ -9498,7 +9498,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -9623,7 +9623,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -9745,7 +9745,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -9866,7 +9866,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -9988,7 +9988,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -10111,7 +10111,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -10233,7 +10233,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -10355,7 +10355,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -10480,7 +10480,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -10601,7 +10601,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -10723,7 +10723,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -10846,7 +10846,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -10968,7 +10968,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -11090,7 +11090,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -11214,7 +11214,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -11335,7 +11335,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -11457,7 +11457,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -11580,7 +11580,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -11702,7 +11702,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -11824,7 +11824,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -11948,7 +11948,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -12069,7 +12069,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -12191,7 +12191,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -12314,7 +12314,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -12436,7 +12436,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -12558,7 +12558,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -12682,7 +12682,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -12803,7 +12803,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -12925,7 +12925,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -13048,7 +13048,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -13170,7 +13170,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -13292,7 +13292,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -13416,7 +13416,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -13537,7 +13537,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -13659,7 +13659,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -13782,7 +13782,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -13904,7 +13904,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -14026,7 +14026,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -14150,7 +14150,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -14271,7 +14271,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -14393,7 +14393,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -14516,7 +14516,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -14638,7 +14638,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -14760,7 +14760,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -14885,7 +14885,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -15008,7 +15008,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -15130,7 +15130,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -15251,7 +15251,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -15373,7 +15373,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -15496,7 +15496,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -15618,7 +15618,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -15740,7 +15740,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -15865,7 +15865,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -15986,7 +15986,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -16109,7 +16109,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -16231,7 +16231,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -16353,7 +16353,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -16475,7 +16475,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -16599,7 +16599,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -16720,7 +16720,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -16842,7 +16842,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -16965,7 +16965,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -17087,7 +17087,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -17209,7 +17209,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -17331,7 +17331,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -17453,7 +17453,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -17575,7 +17575,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -17697,7 +17697,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -17821,7 +17821,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -17942,7 +17942,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -18064,7 +18064,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -18187,7 +18187,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -18309,7 +18309,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -18431,7 +18431,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -18555,7 +18555,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -18677,7 +18677,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -18799,7 +18799,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -18921,7 +18921,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -19045,7 +19045,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -19166,7 +19166,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -19288,7 +19288,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -19411,7 +19411,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
@@ -19533,7 +19533,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 EndIf
 
@@ -19655,7 +19655,7 @@ Execute($wylogujSieOkno)
 Sleep(2500)
 Execute($wylogujSieNapis)
 Sleep(2000)
-;Execute ($zamknijChroma)
+Execute ($zamknijChroma)
 Sleep(2000)
 
 EndIf
