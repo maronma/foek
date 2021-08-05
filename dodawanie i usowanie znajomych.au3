@@ -23,7 +23,7 @@ $sCoIleMINUTzbieranieMlotki = 'MouseClick("left",1210,569,1)' ;1 H
  Local $usowanieDodawanieSwiatJaims = 1 ; 1 jezeli wbijamy PR w Jaims, 0 jezeli w Jaims nie wbijamy wcale
  Local $usowanieDodawanieSwiatHound = 1 
 Local $znajomyDoUsuniecia = 0 ; jezeli usowany to dajemy 1 a 0 ponizej
-Local $znajomyDoDodania = 0 ; jezeli dodajemy znajomego to dajemy 1 a na gorze 0
+Local $znajomyDoDodania = 1 ; jezeli dodajemy znajomego to dajemy 1 a na gorze 0
 
 Local $ogienW 			= 1		
 Local $willig 			= 1       
