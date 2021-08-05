@@ -155,7 +155,7 @@ $wbiciePRwPerle = 'MouseClick("left",1262,534,1)'	;wbicie zebranych PR w jego pe
 $wrocDoMiasta = 'MouseClick("left",148,1102,1)'	; klikamy przycisk "wroc do miasta"
 $wylogujSie='MouseClick("left",1908,92,1)' ; prawy gorny rog przycisk "wyloguj sie"
 $wylogujSieOkno='MouseClick("left",1066,736,1)' ; "wyloguj sie" przycisk na srodku ekranu
-$wylogujSieNapis='MouseClick("left",956,540,1)' ; napis "wyloguj sie" na stronie logowania
+$wylogujSieNapis='MouseClick("left",1271,568,1)' ; napis "wyloguj sie" na stronie logowania
 $zamknijChroma = 'MouseClick("left",1907,16,1)' ;nacisniecie X i zamkniecie chroma
 
 $ratusz='MouseClick("left",938,429,1)' ; ratusz
