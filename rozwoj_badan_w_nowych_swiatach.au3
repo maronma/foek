@@ -35,7 +35,20 @@ $wznoszenieBudynkow='MouseClick("left",855,762,1)'
 $uzyjWszyszkichPRow='MouseClick("left",968,510,1)'
 $proce='MouseClick("left",1190,457,1)'
 $odblokuj='MouseClick("left",971,684,1)'
-
+$drewnianeChaty='MouseClick("left",1198,599,1)'
+$uprawaZiemi='MouseClick("left",1207,724,1)'
+$narzedzia='MouseClick("left",1191,859,1)'
+$jezdziectwo='MouseClick("left",1563,518,1)'
+$domKrytyStrzecha='MouseClick("left",1558,665,1)'
+$strzalkaWprawoPrzesuniecieTechnologi='MouseClick("left",1891,593,1)'
+$Falanga='MouseClick("left",953,460,1)'
+$kowalstwo='MouseClick("left",956,593,1)'
+$nauczanie='MouseClick("left",949,727,1)'
+$machinyObleznicze='MouseClick("left",1325,596,1)'
+$browarnictwo='MouseClick("left",1326,731,1)'
+przesun ponownie w prawo aby ulepszyc ostatnia technologie --> $strzalkaWprawoPrzesuniecieTechnologi='MouseClick("left",1891,593,1)'
+$rozwinEpokeZelaza='MouseClick("left",792,166,1)'
+$architektura='MouseClick("left",732,659,1)'
 
 
 
