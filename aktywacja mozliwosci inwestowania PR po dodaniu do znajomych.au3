@@ -14,6 +14,15 @@ Sleep(2000)
 
 Local $wbijaniePRowSwiatHOUND = 1
 
+$okienkonazwaUzytkownika = 'MouseClick("left",1338,351,1)' ; klikamy w okienko nazwy uzytkownika
+;wpisujemy loginy- metoda send nie jest akceptowana przez metode execute i dlatego nie robimy zmiennej
+$przyciskamyZalogujSie = 'MouseClick("left",1266,476,1)' ;przycisk ZALOGUJ SIE
+$przyciskGraj = 'MouseClick("left",1264,492,1)' ;przycisk GRAJ
+$wyborJaims = 'MouseClick("left",1115,464,1)' ;wybor jaims					!!!!!!!!!!!!!!!!											JAIMS
+$wyborHound = 'MouseClick("left",951,462,1)' ;wybor HOUND			!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!							HOUND
+$odklikniecieZdarzen = 'MouseClick("left",1866,622,1)' ;odklikniecie zdarzen
+
+
  ;wbijanie PR
 
 $aktBelkiZnajomych = 'MouseClick("left",285,1021,1)'	;aktywacja belki znajomych
@@ -27,23 +36,27 @@ $belkaWlewo = 'MouseClick("left",254,1136,1)'	;przesuniecie belki calkiem w lewo
 $klikniecieAkceptacjiNowychZaproszen = 'MouseClick("left",319,1151,1)' ; akceptacja nowych zapek
 $klikniecieNaZnajomego = 'MouseClick("left",305,1102,1)'	;klikniecie na znajomego-wejscie do jego miasta ZONK
 $wyborPerlyWjegoMiescieJAIMS = 'MouseClick("left",527,847,1)'	;wybieramy obiekt Perle w jego miescie								JAIMS
-$wyborPerlyWjegoMiescieHOUND = 'MouseClick("left",548,763,1)'	;wybieramy obiekt PERLE w jego miesciec								HOUND
-$zakladkaZwiekszPoziom = 'MouseClick("left",1176,383,1)' ; zakladka zwieksz poziom
-$wbiciePRwPerle = 'MouseClick("left",1262,534,1)'	;wbicie zebranych PR w jego perle
-$wrocDoMiasta = 'MouseClick("left",148,1102,1)'	; klikamy przycisk "wroc do miasta"
-$wylogujSie='MouseClick("left",1908,92,1)' ; prawy gorny rog przycisk "wyloguj sie"
-$wylogujSieOkno='MouseClick("left",1066,736,1)' ; "wyloguj sie" przycisk na srodku ekranu
-$wylogujSieNapis='MouseClick("left",1271,568,1)' ; napis "wyloguj sie" na stronie logowania
+$wyborPerlyWjegoMiescieHOUND = 'MouseClick("left",1575,715,1)'	;wybieramy obiekt PERLE w jego miesciec								HOUND
+$zakladkaZwiekszPoziom = 'MouseClick("left",1152,387,1)' ; zakladka zwieksz poziom
+$klikniecieWpoleZPRami='MouseClick("left",1194,532,1)'
+$wbiciePRwPerle = 'MouseClick("left",1261,532,1)'	;wbicie zebranych PR w jego perle
+$potwierdzenieOK='MouseClick("left",976,757,1)'
+$niePytajPonowniecheckBox='MouseClick("left",768,742,1)'
+$potwierdzWplatePRow='MouseClick("left",1077,742,1)'
+$wrocDoMiasta = 'MouseClick("left",110,1109,1)'	; klikamy przycisk "wroc do miasta"
+$wylogujSie='MouseClick("left",1908,91,1)' ; prawy gorny rog przycisk "wyloguj sie"
+$wylogujSieOkno='MouseClick("left",1072,736,1)' ; "wyloguj sie" przycisk na srodku ekranu
+$wylogujSieNapis='MouseClick("left",1272,570,1)' ; napis "wyloguj sie" na stronie logowania
 $zamknijChroma = 'MouseClick("left",1907,16,1)' ;nacisniecie X i zamkniecie chroma
 
-$ratusz='MouseClick("left",938,429,1)' ; ratusz
+$ratusz='MouseClick("left",1041,450,1)' ; ratusz
 
 
 ;zamykanie EVENTU
-$zamykanieEventu='MouseClick("left",947,836,1)' ;do sklepu
-$zamykanieEventudDWA='MouseClick("left",1065,472,1)' ;zamknij okno
+$zamykanieEventu='MouseClick("left",589,910,1)' ;do sklepu
+$zamykanieEventudDWA='MouseClick("left",1365,390,1)' ;zamknij okno
 $zamykanieEventudTRZY='MouseClick("left",1065,472,1)' ;zamknij okno (jako dodatkowa zmienna)
-Local $zamykanieEventu_Glupot=0 ; zamyka durne oferty wysylane przez foe jako popup
+Local $zamykanieEventu_Glupot=1 ; zamyka durne oferty wysylane przez foe jako popup
 
 
 Local $ogienW 			= 1		
@@ -71,7 +84,7 @@ Local $romWyk 		 	= 1
 If ( $wbijaniePRowSwiatHOUND == 1 ) Then
 
 
-If ( $ogienW == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $willig == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -84,7 +97,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("ogienW") ; wpisujemy login
+Send("willig") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -156,6 +169,24 @@ Sleep(5000)
 Execute ($wyborPerlyWjegoMiescieHOUND)
 Sleep(1500)
 Execute ($zakladkaZwiekszPoziom)
+Sleep(1000)
+Execute($klikniecieWpoleZPRami)
+Sleep(1000)
+Send("1")
+Sleep(1000)
+Execute ($wbiciePRwPerle)
+Sleep(1000)
+Execute($potwierdzenieOK)
+Sleep(1000)
+Execute($klikniecieWpoleZPRami)
+Sleep(1000)
+Send("1")
+Sleep(1000)
+Execute ($wbiciePRwPerle)
+Sleep(1000)
+Execute($niePytajPonowniecheckBox)
+Sleep(1000)
+Execute($potwierdzWplatePRow)
 Sleep(1000)
 Execute ($wbiciePRwPerle)
 Sleep(1000)
