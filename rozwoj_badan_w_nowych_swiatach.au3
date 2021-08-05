@@ -12,13 +12,34 @@ WinClose("Gesponserte Sitzung")
 Sleep(2000)
 
 
+$okienkonazwaUzytkownika = 'MouseClick("left",1338,351,1)' ; klikamy w okienko nazwy uzytkownika
+;wpisujemy loginy- metoda send nie jest akceptowana przez metode execute i dlatego nie robimy zmiennej
+$przyciskamyZalogujSie = 'MouseClick("left",1266,476,1)' ;przycisk ZALOGUJ SIE
+$przyciskGraj = 'MouseClick("left",1264,492,1)' ;przycisk GRAJ
+$wyborJaims = 'MouseClick("left",1115,464,1)' ;wybor jaims					!!!!!!!!!!!!!!!!											JAIMS
+$wyborHound = 'MouseClick("left",951,462,1)' ;wybor HOUND			!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!							HOUND
+$odklikniecieZdarzen = 'MouseClick("left",1866,622,1)' ;odklikniecie zdarzen
+
 $wylogujSie='MouseClick("left",1908,92,1)' ; prawy gorny rog przycisk "wyloguj sie"
 $wylogujSieOkno='MouseClick("left",1074,740,1)' ; "wyloguj sie" przycisk na srodku ekranu
 $wylogujSieNapis='MouseClick("left",1269,572,1)' ; napis "wyloguj sie" na stronie logowania
 $zamknijChroma = 'MouseClick("left",1904,19,1)' ;nacisniecie X i zamkniecie chroma
 
 
+$badania='MouseClick("left",110,1050,1)'
+$przyciskPrzesunieciaBadanwLewo='MouseClick("left",44,592,1)'
+$techKolo='MouseClick("left",833,551,1)'
+$przycisk1PR='MouseClick("left",827,509,1)'
+$odklikniecieOknaPoOdblokowaniuTechnologi='MouseClick("left",1295,268,1)'
+$wznoszenieBudynkow='MouseClick("left",855,762,1)'
+$uzyjWszyszkichPRow='MouseClick("left",968,510,1)'
+$proce='MouseClick("left",1190,457,1)'
+$odblokuj='MouseClick("left",971,684,1)'
 
+
+
+
+Local $ileTechPomijac=0
 
 If ( $rekljema == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
@@ -69,14 +90,53 @@ endif
 ;monety
 
 
+Execute($badania)
+Sleep(3000)
+Execute($przyciskPrzesunieciaBadanwLewo)
+Sleep(1000)
+Execute($przyciskPrzesunieciaBadanwLewo)
+Sleep(1000)
+
+If ( $ileTechPomijac <= 1 ) Then
+
+Execute($techKolo)
+Sleep(1000)
+Execute($przycisk1PR)
+Sleep(1000)
+Execute($odklikniecieOknaPoOdblokowaniuTechnologi)
+Sleep(1000)
+
+endif
+
+
+If ( $ileTechPomijac <= 2 ) Then
+
+Execute($wznoszenieBudynkow)
+Sleep(1000)
+Execute($przycisk1PR)
+Sleep(1000)
+Execute($uzyjWszyszkichPRow)
+Sleep(1000)
+Execute($odklikniecieOknaPoOdblokowaniuTechnologi)
+Sleep(1000)
+endif
 
 
 
+If ( $ileTechPomijac <= 3 ) Then
 
+Execute($proce)
+Sleep(1000)
+Execute($przycisk1PR)
+Sleep(1000)
+Execute($uzyjWszyszkichPRow)
+Sleep(1000)
+Execute($odblokuj)
+Sleep(1000)
+Execute($odklikniecieOknaPoOdblokowaniuTechnologi)
+Sleep(1000)
 
-
-
-
+endif
 
 
 
