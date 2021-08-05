@@ -49,6 +49,13 @@ $browarnictwo='MouseClick("left",1326,731,1)'
 przesun ponownie w prawo aby ulepszyc ostatnia technologie --> $strzalkaWprawoPrzesuniecieTechnologi='MouseClick("left",1891,593,1)'
 $rozwinEpokeZelaza='MouseClick("left",792,166,1)'
 $architektura='MouseClick("left",732,659,1)'
+$diamenty='MouseClick("left",939,605,1)'
+$potwierdzUzycieDiamentow='MouseClick("left",1109,744,1)'
+;$odblokuj
+$zbierzNagrodyZaNowaEpoke='MouseClick("left",963,835,1)'
+$wrocDoMiasta='MouseClick("left",97,1083,1)'
+;poskroluj i sos zbierz aby ustawienie sie zapisalo
+
 
 
 
