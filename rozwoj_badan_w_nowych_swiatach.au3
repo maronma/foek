@@ -92,9 +92,9 @@ Local $romWyk 		 	= 1
 
 
 Local $ileTechPomijac=14 ; ostatni lvl to 14
-Local $koniecBadan=0  ;jak dasz 1 to wtedy bedzie ostatnie technologie konczylo
-Local $$technologiaSwiatHOUND=1
-Local $$technologiaSwiatJAIMS=1
+Local $koniecBadan=1  ;jak dasz 1 to wtedy bedzie ostatnie technologie konczylo
+Local $technologiaSwiatHOUND=1
+Local $technologiaSwiatJAIMS=1
 
 
 
@@ -411,7 +411,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -775,7 +775,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -1140,7 +1140,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -1505,7 +1505,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -1870,7 +1870,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -2235,7 +2235,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -2600,7 +2600,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -2965,7 +2965,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -3330,7 +3330,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -3695,7 +3695,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -4060,7 +4060,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -4425,7 +4425,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -4791,7 +4791,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -5156,7 +5156,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -5521,7 +5521,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -5886,7 +5886,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -6252,7 +6252,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -6617,7 +6617,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -6982,7 +6982,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -7347,7 +7347,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -7772,7 +7772,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -8136,7 +8136,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -8501,7 +8501,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -8866,7 +8866,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -9231,7 +9231,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -9596,7 +9596,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -9961,7 +9961,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -10326,7 +10326,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -10691,7 +10691,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -11056,7 +11056,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -11421,7 +11421,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -11786,7 +11786,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -12152,7 +12152,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -12517,7 +12517,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -12882,7 +12882,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -13247,7 +13247,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -13613,7 +13613,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -13978,7 +13978,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -14343,7 +14343,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
@@ -14708,7 +14708,7 @@ Execute($strzalkaWprawoPrzesuniecieTechnologi)
 Sleep(1000)
 Execute($rozwinEpokeZelaza)
 
-If ( $ileTechPomijac <= 14 0 and $koniecBadan==1 ) Then
+If ( $ileTechPomijac <= 14  and $koniecBadan==1 ) Then
 
 Execute($architektura)
 Sleep(1000)
