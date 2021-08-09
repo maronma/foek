@@ -61,23 +61,26 @@ $zamykanieEventudDWA='MouseClick("left",1365,390,1)' ;zamknij okno
 $zamykanieEventudTRZY='MouseClick("left",1065,472,1)' ;zamknij okno (jako dodatkowa zmienna)
 
 
-Local $ogienW 			= 1		
-Local $willig 			= 1       
-Local $Riepen     		= 1       
-Local $bekler   		= 1      
-Local $Balanowiec    	= 1      
-Local $Celutka    		= 1     
-Local $SkiHol  			= 1  
-Local $keramik   		= 1    
-Local $totorot 			= 1       
-Local $bolIlol 			= 1
+Local $Willich 			= 1		
+Local $Xander25 		= 1       
+Local $Jabra     		= 1       
+Local $XanderS   		= 1      
+Local $LindseyK    		= 1      
+Local $Kalczek    		= 1     
+Local $2goLor  			= 1  
+Local $dydzej   		= 1    
+Local $elemeczka 			= 1       
+Local $bladra 			= 1
 
+
+;HOUND 23 wbitki
+;JAIMS 4 wbitki
 
 
 If ( $wbijaniePRowSwiatHOUND == 1 ) Then
 
 
-If ( $ogienW == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $Willich == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -90,7 +93,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("ogienW") ; wpisujemy login
+Send("Willich") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -207,7 +210,7 @@ EndIf
 ;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-If ( $willig == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $Xander25 == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -220,139 +223,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("willig") ; wpisujemy login
-Sleep(2000)
-Send("{ENTER}")
-Sleep(2000)
-Execute ($przyciskamyZalogujSie)
-Sleep(1000)
-Execute ($przyciskGraj)
-Sleep(8000)
-Execute ($wyborHound)
-Sleep(10000)
-Send("{ESC}")
-Execute ($odklikniecieZdarzen)
-Sleep(1000)
-Send("{ESC}")
-Sleep(1000)
-MouseWheel("down",10)
-Sleep(1000)
-MouseWheel("down",10)
-Sleep(1000)
-MouseWheel("down",10)
-
-
-
-
-If ( $zamykanieEventu_Glupot == 1 ) Then
-Sleep(1000)
-Execute($zamykanieEventu)
-Sleep(1000)
-Send("{ESC}")
-Execute($zamykanieEventudDWA)
-Sleep(1000)
-Send("{ESC}")
-;Execute($zamykanieEventudTRZY)
-Sleep(1000)
-Send("{ESC}")
-
-endif
-
-
-;wbicie PR do znajomego
-
-Execute ($aktBelkiZnajomych)
-Sleep(1000)
-Execute ($aktBelkiZnajomychBis)
-Sleep(1000)
-Execute ($wyborZnajomych)
-Sleep(2000)
-Execute ($nowiZnajomi)
-Sleep(1000)
-;Execute ($zamknijOknoZnajomi)
-Sleep(1000)
-Execute ($usunZnajomychX)
-Sleep(600)
-Execute ($usunZnajomychX)
-Sleep(600)
-Execute ($usunZnajomychX)
-Sleep(600)
-Send("{ESC}")
-Sleep(1000)
-Execute ($belkaWlewo)
-Sleep(2000)
-Execute ($klikniecieAkceptacjiNowychZaproszen)
-Sleep(1000)
-Execute ($klikniecieAkceptacjiNowychZaproszen)
-Sleep(1000)
-Execute ($klikniecieAkceptacjiNowychZaproszen)
-Sleep(1000)
-Execute ($klikniecieNaZnajomego)
-Sleep(5000)
-Execute ($wyborPerlyWjegoMiescieHOUND)
-Sleep(1500)
-Execute ($zakladkaZwiekszPoziom)
-Sleep(1000)
-Execute($klikniecieWpoleZPRami)
-Sleep(1000)
-Send("1")
-Sleep(1000)
-Execute ($wbiciePRwPerle)
-Sleep(1000)
-Execute($potwierdzenieOK)
-Sleep(1000)
-Execute($klikniecieWpoleZPRami)
-Sleep(1000)
-Send("1")
-Sleep(1000)
-Execute ($wbiciePRwPerle)
-Sleep(1000)
-Execute($niePytajPonowniecheckBox)
-Sleep(1000)
-Execute($potwierdzWplatePRow)
-Sleep(1000)
-Execute ($wbiciePRwPerle)
-Sleep(1000)
-Send("{ESC}")
-Execute ($wrocDoMiasta)
-Sleep(3000)
-
-
-
-
-Execute($wylogujSie)
-Sleep(1500)
-Execute($wylogujSieOkno)
-Sleep(2500)
-Execute($wylogujSieNapis)
-Sleep(2000)
-Execute ($zamknijChroma)
-Sleep(2000)
-
-EndIf
-
-
-;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-
-
-If ( $Riepen == 1 ) Then  ; plus 8h = 96 / 1H = 12
-
-Sleep(1000)
-WinClose("Gesponserte Sitzung")
-Sleep(1000)
-ShellExecute("chrome.exe", "https://pl0.forgeofempires.com/page/")
-Sleep(5000)
-Execute ($okienkonazwaUzytkownika)
-Sleep(3000)
-Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}")
-Sleep(2000)
-Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
-Sleep(1000)
-Send("Riepen") ; wpisujemy login
+Send("Xander25") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -471,7 +342,7 @@ EndIf
 
 
 
-If ( $bekler == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $Jabra == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -484,7 +355,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("bekler") ; wpisujemy login
+Send("Jabra") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -603,7 +474,7 @@ EndIf
 
 
 
-If ( $Balanowiec == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $XanderS == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -616,7 +487,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("Balanowiec") ; wpisujemy login
+Send("XanderS") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -735,7 +606,7 @@ EndIf
 
 
 
-If ( $Celutka == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $LindseyK == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -748,7 +619,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("Celutka") ; wpisujemy login
+Send("LindseyK") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -867,7 +738,7 @@ EndIf
 
 
 
-If ( $SkiHol == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $Kalczek == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -880,7 +751,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("SkiHol") ; wpisujemy login
+Send("Kalczek") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -999,7 +870,7 @@ EndIf
 
 
 
-If ( $keramik == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $2goLor == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -1012,7 +883,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("keramik") ; wpisujemy login
+Send("2goLor") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -1131,7 +1002,7 @@ EndIf
 
 
 
-If ( $totorot == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $dydzej == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -1144,7 +1015,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("totorot") ; wpisujemy login
+Send("dydzej") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -1263,7 +1134,7 @@ EndIf
 
 
 
-If ( $bolIlol == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $elemeczka == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -1276,7 +1147,139 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("bolIlol") ; wpisujemy login
+Send("elemeczka") ; wpisujemy login
+Sleep(2000)
+Send("{ENTER}")
+Sleep(2000)
+Execute ($przyciskamyZalogujSie)
+Sleep(1000)
+Execute ($przyciskGraj)
+Sleep(8000)
+Execute ($wyborHound)
+Sleep(10000)
+Send("{ESC}")
+Execute ($odklikniecieZdarzen)
+Sleep(1000)
+Send("{ESC}")
+Sleep(1000)
+MouseWheel("down",10)
+Sleep(1000)
+MouseWheel("down",10)
+Sleep(1000)
+MouseWheel("down",10)
+
+
+
+
+If ( $zamykanieEventu_Glupot == 1 ) Then
+Sleep(1000)
+Execute($zamykanieEventu)
+Sleep(1000)
+Send("{ESC}")
+Execute($zamykanieEventudDWA)
+Sleep(1000)
+Send("{ESC}")
+;Execute($zamykanieEventudTRZY)
+Sleep(1000)
+Send("{ESC}")
+
+endif
+
+
+;wbicie PR do znajomego
+
+Execute ($aktBelkiZnajomych)
+Sleep(1000)
+Execute ($aktBelkiZnajomychBis)
+Sleep(1000)
+Execute ($wyborZnajomych)
+Sleep(2000)
+Execute ($nowiZnajomi)
+Sleep(1000)
+;Execute ($zamknijOknoZnajomi)
+Sleep(1000)
+Execute ($usunZnajomychX)
+Sleep(600)
+Execute ($usunZnajomychX)
+Sleep(600)
+Execute ($usunZnajomychX)
+Sleep(600)
+Send("{ESC}")
+Sleep(1000)
+Execute ($belkaWlewo)
+Sleep(2000)
+Execute ($klikniecieAkceptacjiNowychZaproszen)
+Sleep(1000)
+Execute ($klikniecieAkceptacjiNowychZaproszen)
+Sleep(1000)
+Execute ($klikniecieAkceptacjiNowychZaproszen)
+Sleep(1000)
+Execute ($klikniecieNaZnajomego)
+Sleep(5000)
+Execute ($wyborPerlyWjegoMiescieHOUND)
+Sleep(1500)
+Execute ($zakladkaZwiekszPoziom)
+Sleep(1000)
+Execute($klikniecieWpoleZPRami)
+Sleep(1000)
+Send("1")
+Sleep(1000)
+Execute ($wbiciePRwPerle)
+Sleep(1000)
+Execute($potwierdzenieOK)
+Sleep(1000)
+Execute($klikniecieWpoleZPRami)
+Sleep(1000)
+Send("1")
+Sleep(1000)
+Execute ($wbiciePRwPerle)
+Sleep(1000)
+Execute($niePytajPonowniecheckBox)
+Sleep(1000)
+Execute($potwierdzWplatePRow)
+Sleep(1000)
+Execute ($wbiciePRwPerle)
+Sleep(1000)
+Send("{ESC}")
+Execute ($wrocDoMiasta)
+Sleep(3000)
+
+
+
+
+Execute($wylogujSie)
+Sleep(1500)
+Execute($wylogujSieOkno)
+Sleep(2500)
+Execute($wylogujSieNapis)
+Sleep(2000)
+Execute ($zamknijChroma)
+Sleep(2000)
+
+EndIf
+
+
+;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+If ( $bladra == 1 ) Then  ; plus 8h = 96 / 1H = 12
+
+Sleep(1000)
+WinClose("Gesponserte Sitzung")
+Sleep(1000)
+ShellExecute("chrome.exe", "https://pl0.forgeofempires.com/page/")
+Sleep(5000)
+Execute ($okienkonazwaUzytkownika)
+Sleep(3000)
+Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}")
+Sleep(2000)
+Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
+Sleep(1000)
+Send("bladra") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -1440,7 +1443,7 @@ EndIf
 If ( $wbijaniePRowSwiatJAIMS == 1 ) Then
 
 
-If ( $ogienW == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $Willich == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -1453,7 +1456,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("ogienW") ; wpisujemy login
+Send("Willich") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -1570,7 +1573,7 @@ EndIf
 ;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-If ( $willig == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $Xander25 == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -1583,139 +1586,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("willig") ; wpisujemy login
-Sleep(2000)
-Send("{ENTER}")
-Sleep(2000)
-Execute ($przyciskamyZalogujSie)
-Sleep(1000)
-Execute ($przyciskGraj)
-Sleep(8000)
-Execute ($wyborJaims)
-Sleep(10000)
-Send("{ESC}")
-Execute ($odklikniecieZdarzen)
-Sleep(1000)
-Send("{ESC}")
-Sleep(1000)
-MouseWheel("down",10)
-Sleep(1000)
-MouseWheel("down",10)
-Sleep(1000)
-MouseWheel("down",10)
-
-
-
-
-If ( $zamykanieEventu_Glupot == 1 ) Then
-Sleep(1000)
-Execute($zamykanieEventu)
-Sleep(1000)
-Send("{ESC}")
-Execute($zamykanieEventudDWA)
-Sleep(1000)
-Send("{ESC}")
-;Execute($zamykanieEventudTRZY)
-Sleep(1000)
-Send("{ESC}")
-
-endif
-
-
-;wbicie PR do znajomego
-
-Execute ($aktBelkiZnajomych)
-Sleep(1000)
-Execute ($aktBelkiZnajomychBis)
-Sleep(1000)
-Execute ($wyborZnajomych)
-Sleep(2000)
-Execute ($nowiZnajomi)
-Sleep(1000)
-;Execute ($zamknijOknoZnajomi)
-Sleep(1000)
-Execute ($usunZnajomychX)
-Sleep(600)
-Execute ($usunZnajomychX)
-Sleep(600)
-Execute ($usunZnajomychX)
-Sleep(600)
-Send("{ESC}")
-Sleep(1000)
-Execute ($belkaWlewo)
-Sleep(2000)
-Execute ($klikniecieAkceptacjiNowychZaproszen)
-Sleep(1000)
-Execute ($klikniecieAkceptacjiNowychZaproszen)
-Sleep(1000)
-Execute ($klikniecieAkceptacjiNowychZaproszen)
-Sleep(1000)
-Execute ($klikniecieNaZnajomego)
-Sleep(5000)
-Execute ($wyborPerlyWjegoMiescieHOUND)
-Sleep(1500)
-Execute ($zakladkaZwiekszPoziom)
-Sleep(1000)
-Execute($klikniecieWpoleZPRami)
-Sleep(1000)
-Send("1")
-Sleep(1000)
-Execute ($wbiciePRwPerle)
-Sleep(1000)
-Execute($potwierdzenieOK)
-Sleep(1000)
-Execute($klikniecieWpoleZPRami)
-Sleep(1000)
-Send("1")
-Sleep(1000)
-Execute ($wbiciePRwPerle)
-Sleep(1000)
-Execute($niePytajPonowniecheckBox)
-Sleep(1000)
-Execute($potwierdzWplatePRow)
-Sleep(1000)
-Execute ($wbiciePRwPerle)
-Sleep(1000)
-Send("{ESC}")
-Execute ($wrocDoMiasta)
-Sleep(3000)
-
-
-
-
-Execute($wylogujSie)
-Sleep(1500)
-Execute($wylogujSieOkno)
-Sleep(2500)
-Execute($wylogujSieNapis)
-Sleep(2000)
-Execute ($zamknijChroma)
-Sleep(2000)
-
-EndIf
-
-
-;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-
-
-If ( $Riepen == 1 ) Then  ; plus 8h = 96 / 1H = 12
-
-Sleep(1000)
-WinClose("Gesponserte Sitzung")
-Sleep(1000)
-ShellExecute("chrome.exe", "https://pl0.forgeofempires.com/page/")
-Sleep(5000)
-Execute ($okienkonazwaUzytkownika)
-Sleep(3000)
-Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}")
-Sleep(2000)
-Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
-Sleep(1000)
-Send("Riepen") ; wpisujemy login
+Send("Xander25") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -1834,7 +1705,7 @@ EndIf
 
 
 
-If ( $bekler == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $Jabra == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -1847,7 +1718,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("bekler") ; wpisujemy login
+Send("Jabra") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -1966,7 +1837,7 @@ EndIf
 
 
 
-If ( $Balanowiec == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $XanderS == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -1979,7 +1850,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("Balanowiec") ; wpisujemy login
+Send("XanderS") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -2098,7 +1969,7 @@ EndIf
 
 
 
-If ( $Celutka == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $LindseyK == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -2111,7 +1982,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("Celutka") ; wpisujemy login
+Send("LindseyK") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -2230,7 +2101,7 @@ EndIf
 
 
 
-If ( $SkiHol == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $Kalczek == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -2243,7 +2114,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("SkiHol") ; wpisujemy login
+Send("Kalczek") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -2362,7 +2233,7 @@ EndIf
 
 
 
-If ( $keramik == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $2goLor == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -2375,7 +2246,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("keramik") ; wpisujemy login
+Send("2goLor") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -2494,7 +2365,7 @@ EndIf
 
 
 
-If ( $totorot == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $dydzej == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -2507,7 +2378,7 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("totorot") ; wpisujemy login
+Send("dydzej") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
@@ -2626,7 +2497,7 @@ EndIf
 
 
 
-If ( $bolIlol == 1 ) Then  ; plus 8h = 96 / 1H = 12
+If ( $elemeczka == 1 ) Then  ; plus 8h = 96 / 1H = 12
 
 Sleep(1000)
 WinClose("Gesponserte Sitzung")
@@ -2639,7 +2510,139 @@ Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPA
 Sleep(2000)
 Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
 Sleep(1000)
-Send("bolIlol") ; wpisujemy login
+Send("elemeczka") ; wpisujemy login
+Sleep(2000)
+Send("{ENTER}")
+Sleep(2000)
+Execute ($przyciskamyZalogujSie)
+Sleep(1000)
+Execute ($przyciskGraj)
+Sleep(8000)
+Execute ($wyborJaims)
+Sleep(10000)
+Send("{ESC}")
+Execute ($odklikniecieZdarzen)
+Sleep(1000)
+Send("{ESC}")
+Sleep(1000)
+MouseWheel("down",10)
+Sleep(1000)
+MouseWheel("down",10)
+Sleep(1000)
+MouseWheel("down",10)
+
+
+
+
+If ( $zamykanieEventu_Glupot == 1 ) Then
+Sleep(1000)
+Execute($zamykanieEventu)
+Sleep(1000)
+Send("{ESC}")
+Execute($zamykanieEventudDWA)
+Sleep(1000)
+Send("{ESC}")
+;Execute($zamykanieEventudTRZY)
+Sleep(1000)
+Send("{ESC}")
+
+endif
+
+
+;wbicie PR do znajomego
+
+Execute ($aktBelkiZnajomych)
+Sleep(1000)
+Execute ($aktBelkiZnajomychBis)
+Sleep(1000)
+Execute ($wyborZnajomych)
+Sleep(2000)
+Execute ($nowiZnajomi)
+Sleep(1000)
+;Execute ($zamknijOknoZnajomi)
+Sleep(1000)
+Execute ($usunZnajomychX)
+Sleep(600)
+Execute ($usunZnajomychX)
+Sleep(600)
+Execute ($usunZnajomychX)
+Sleep(600)
+Send("{ESC}")
+Sleep(1000)
+Execute ($belkaWlewo)
+Sleep(2000)
+Execute ($klikniecieAkceptacjiNowychZaproszen)
+Sleep(1000)
+Execute ($klikniecieAkceptacjiNowychZaproszen)
+Sleep(1000)
+Execute ($klikniecieAkceptacjiNowychZaproszen)
+Sleep(1000)
+Execute ($klikniecieNaZnajomego)
+Sleep(5000)
+Execute ($wyborPerlyWjegoMiescieHOUND)
+Sleep(1500)
+Execute ($zakladkaZwiekszPoziom)
+Sleep(1000)
+Execute($klikniecieWpoleZPRami)
+Sleep(1000)
+Send("1")
+Sleep(1000)
+Execute ($wbiciePRwPerle)
+Sleep(1000)
+Execute($potwierdzenieOK)
+Sleep(1000)
+Execute($klikniecieWpoleZPRami)
+Sleep(1000)
+Send("1")
+Sleep(1000)
+Execute ($wbiciePRwPerle)
+Sleep(1000)
+Execute($niePytajPonowniecheckBox)
+Sleep(1000)
+Execute($potwierdzWplatePRow)
+Sleep(1000)
+Execute ($wbiciePRwPerle)
+Sleep(1000)
+Send("{ESC}")
+Execute ($wrocDoMiasta)
+Sleep(3000)
+
+
+
+
+Execute($wylogujSie)
+Sleep(1500)
+Execute($wylogujSieOkno)
+Sleep(2500)
+Execute($wylogujSieNapis)
+Sleep(2000)
+Execute ($zamknijChroma)
+Sleep(2000)
+
+EndIf
+
+
+;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+If ( $bladra == 1 ) Then  ; plus 8h = 96 / 1H = 12
+
+Sleep(1000)
+WinClose("Gesponserte Sitzung")
+Sleep(1000)
+ShellExecute("chrome.exe", "https://pl0.forgeofempires.com/page/")
+Sleep(5000)
+Execute ($okienkonazwaUzytkownika)
+Sleep(3000)
+Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}{DEL}")
+Sleep(2000)
+Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}")
+Sleep(1000)
+Send("bladra") ; wpisujemy login
 Sleep(2000)
 Send("{ENTER}")
 Sleep(2000)
